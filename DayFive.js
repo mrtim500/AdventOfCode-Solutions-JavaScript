@@ -1,5 +1,4 @@
 var fs = require('fs');
-var vowels = /aeiou/;
 var countok = 0;
 
 fs.readFile('DayFiveInput.txt', function( err, data ) {
